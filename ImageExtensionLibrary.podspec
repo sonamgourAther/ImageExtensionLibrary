@@ -30,7 +30,9 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'ImageExtensionLibrary/Classes/**/*'
+#  s.source_files = 'ImageExtensionLibrary/Classes/**/*'
+  s.source_files = 'ImageExtensionLibrary/Classes/*.swift'
+
   s.frameworks = 'UIKit'
   
   # s.resource_bundles = {
