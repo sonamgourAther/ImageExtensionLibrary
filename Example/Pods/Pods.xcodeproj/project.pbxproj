@@ -12,7 +12,7 @@
 		8677CB66288492175FDC45EC8A21D72F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		8CA2B248DCDF67E8590967AE9447346C /* ImageExtensionLibrary-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 57599A8C5F8A678E8950FF4753C3EC6C /* ImageExtensionLibrary-dummy.m */; };
 		8E3C1BB408F55FE88586CCEC787A3B22 /* ImageExtensionLibrary-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C467DF53F06E526208252C6DC785414 /* ImageExtensionLibrary-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AD2926C2975C324848B2EA1D634D032C /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922E385A15878824360767DAB6182F92 /* ReplaceMe.swift */; };
+		AD2926C2975C324848B2EA1D634D032C /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922E385A15878824360767DAB6182F92 /* UIImageExtension.swift */; };
 		B59609A11503044C39AEFF9159D8C795 /* Pods-ImageExtensionLibrary_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C5795C94104AA783BA0A302543AEFA26 /* Pods-ImageExtensionLibrary_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B87074BE0D4EB94C4A091C3ACC73AA60 /* Pods-ImageExtensionLibrary_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 020547B0D847B84A4FE6F1738653570A /* Pods-ImageExtensionLibrary_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C364B64DCA99B84B0E1E84CF183D8A2B /* Pods-ImageExtensionLibrary_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CB93A2D0D870002EB5FA1289661EA201 /* Pods-ImageExtensionLibrary_Tests-dummy.m */; };
@@ -56,7 +56,7 @@
 		82CD19F3944916A713CF44FBCAF65869 /* Pods-ImageExtensionLibrary_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ImageExtensionLibrary_Example-Info.plist"; sourceTree = "<group>"; };
 		89360F128A50AD1F6188D6A55615C2FF /* Pods-ImageExtensionLibrary_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ImageExtensionLibrary_Example.modulemap"; sourceTree = "<group>"; };
 		9132441097ABCE88400C41D709302FFC /* Pods-ImageExtensionLibrary_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ImageExtensionLibrary_Example-frameworks.sh"; sourceTree = "<group>"; };
-		922E385A15878824360767DAB6182F92 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = ImageExtensionLibrary/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		922E385A15878824360767DAB6182F92 /* UIImageExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIImageExtension.swift; path = ImageExtensionLibrary/Classes/UIImageExtension.swift; sourceTree = "<group>"; };
 		9350C6F7A53CE17B98C917F1403A0F6A /* Pods-ImageExtensionLibrary_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ImageExtensionLibrary_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A47A6D83B27FBC871623EE1A452F066C /* Pods-ImageExtensionLibrary_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ImageExtensionLibrary_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -103,7 +103,7 @@
 		0138EB592D2565B4A2AAF5419B2680A5 /* ImageExtensionLibrary */ = {
 			isa = PBXGroup;
 			children = (
-				922E385A15878824360767DAB6182F92 /* ReplaceMe.swift */,
+				922E385A15878824360767DAB6182F92 /* UIImageExtension.swift */,
 				A5CFBBA4FDAEE9393C9232D0C27D89CC /* Pod */,
 				97DA2D410B07570C92ED36B54AC1ED9C /* Support Files */,
 			);
@@ -384,7 +384,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8CA2B248DCDF67E8590967AE9447346C /* ImageExtensionLibrary-dummy.m in Sources */,
-				AD2926C2975C324848B2EA1D634D032C /* ReplaceMe.swift in Sources */,
+				AD2926C2975C324848B2EA1D634D032C /* UIImageExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

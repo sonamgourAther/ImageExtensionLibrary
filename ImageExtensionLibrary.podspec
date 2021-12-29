@@ -31,6 +31,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'ImageExtensionLibrary/Classes/**/*'
+  s.frameworks = 'UIKit'
   
   # s.resource_bundles = {
   #   'ImageExtensionLibrary' => ['ImageExtensionLibrary/Assets/*.png']
