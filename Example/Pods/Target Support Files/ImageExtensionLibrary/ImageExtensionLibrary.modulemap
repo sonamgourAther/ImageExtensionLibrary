@@ -1,0 +1,6 @@
+framework module ImageExtensionLibrary {
+  umbrella header "ImageExtensionLibrary-umbrella.h"
+
+  export *
+  module * { export * }
+}
